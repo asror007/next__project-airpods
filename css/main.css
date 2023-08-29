@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}a{
+    text-decoration: none;
+}ul{
+    list-style: none;
+}.container{
+    max-width: 1107px;
+    width: 100%;
+    margin: auto;
+}.nav__container{
+    column-gap: 30px;
+    display: flex;
+}.nav{
+    background: #282828;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 6px 0;
+}.nav__list{
+    column-gap: 30px;
+    display: flex;
+    align-items: center;
+}.nav__logo{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Montserrat;
+}.nav__logo-icons{
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    transform: translateX(683px);
+}
+/* header__nav end */
+/* header__content start */
+.header__container{
+    height: 700px;
+}.header__content{
+    position: relative;
+    background: url(../img/Header.png);
+}.header__title{
+    position: absolute;
+    display: flex;
+    color: #FFF;
+    font-family: Prosto One;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+    margin-left: 210px;
+    top: 204px;
+}.header__btn{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #171718;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 13px 14px;
+    margin-top: 330px;
+    margin-left: 400px;
+}.icons{
+    position: absolute;
+    margin-top: 345px;
+    margin-left: 570px;
+    color: #171718;
+}
+/* main */
+main{
+    background: #151515;
+}.cards{
+    display: flex;
+    column-gap: 30px;
+    padding: 57px 0 50px 0;
+}.cards__text{
+    width: 538px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+}
+/* section 2 */
+.boxes{
+    display: flex;
+    column-gap: 63px;
+}.boxes__text{
+    width: 540px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+}
+/* section 3 */
+.cardbox{
+    display: flex;
+    column-gap: 14px;
+    padding: 50px 0 79px 0;
+}.cardbox__text{
+    width: 333px;
+    color: #FFF;
+    font-family: Montserrat;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}.cardbox__line{
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    transform: translateY(188px);
+}.cardbox__text2{
+    width: 333px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}.cardbox__line2{
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    transform: translateY(188px);
+}
+/* section 4 */
+.all__btn{
+    width: 161px;
+    height: 34px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #151515;
+    padding: 7px 57px;
+    display: flex;
+    margin: auto;
+}.box{
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 55px;
+}.box__card{
+    width: 255px;
+    height: 312px;
+    background: #fff;
+    border-radius: 6px;
+}.card__title{
+    text-align: center;
+    padding: 15px 0 10px 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}.card__text{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0 20px 0;
+    text-align: center;
+}.card__img{
+    display: flex;
+    margin: auto;
+}
+/* footer start */
+.footer{
+    background: #282828;
+    box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+}.footer__nav{
+    padding: 81px 0;
+}.footer__container{
+    display: flex;
+    justify-content: space-between;
+}.footer__list{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}.footer__logo{
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}.footer__icon{
+    display: flex;
+    align-items: center;
+    column-gap: 29px;
+    color: #fff;
+}
